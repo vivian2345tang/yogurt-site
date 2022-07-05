@@ -1,0 +1,44 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(yogurt/pink.gif);
+}
+
+#banner{
+    display: block;
+    margin: auto;
+    max-width: 512px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#big-image-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.big-image{
+    width: 400px;
+    box-shadow: 0px 0px 10px 10px darksalmon;
+    border-radius: 20px;
+}
+
+#little-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.little-image{
+    width: 256px;
+    box-shadow: 0px 0px 10px 10px goldenrod;
+    margin: 15px;
+    border-radius: 20px;
+}
